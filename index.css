@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+    color:beige
+}
+
+@font-face {
+    font-family: 'digital-clock-font';
+    src: url('digital-7.ttf');
+}
+
+.main {
+    background-color: #2364aa;
+    width: 500px;
+    margin: 30px auto;
+    border: 8px solid #fec601 ;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score-home, .score-guest {
+    color: #73bfb8;
+    background-color: black;
+    padding: 50px 60px;
+    border-radius: 8px;
+    font-family: 'digital-clock-font';
+}
+
+#scores {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.one, .two, .three {
+    padding: 8px;
+    border: 1px solid beige;
+    margin: auto 4px;
+    border-radius: 4px;
+    font-family: 'digital-clock-font'
+}
+
