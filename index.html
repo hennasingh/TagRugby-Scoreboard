@@ -6,22 +6,26 @@
         <div class="main">
              <h2>TAG RUGBY SCOREBOARD</h2>
              <div class="container">
-                <div>
+                <div class="item">
                     <h3>HOME</h3>
-                    <p class="score-home"></p>
+                    <div class="score-home">
+                        <h2 id="home">0</h2>
+                    </div>
                     <div id="scores">
-                        <span class="one">+ 1</span>
-                        <span class="two">+ 2</span>
-                        <span class="three">+ 3</span>
+                        <span class="one" onclick="addOne()">+ 1</span>
+                        <span class="two" onclick="addTwo()">+ 2</span>
+                        <span class="three" onclick="addThree()">+ 3</span>
                     </div>
                 </div>
-                <div>
+                <div class="item">
                     <h3>GUEST</h3>
-                    <p class="score-guest"></p>
+                    <div class="score-guest">
+                        <h2 id="guest">0</h2>
+                    </div>
                     <div id="scores">
-                        <span class="one">+ 1</span>
-                        <span class="two">+ 2</span>
-                        <span class="three">+ 3</span>
+                        <span class="one" onclick="addOneGuest()">+ 1</span>
+                        <span class="two" onclick="addTwoGuest()">+ 2</span>
+                        <span class="three" onclick="addThreeGuest()">+ 3</span>
                     </div>
                 </div>
             </div>
